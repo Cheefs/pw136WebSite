@@ -7,13 +7,13 @@
    
     <div class="header">
         <div class="headerContainer">
-        <a href="#">Главная</a>
+            <a href="index.html">Главная</a>
             <a href="#">Форум</a>
             <a href="register.php">Регистрация</a>
             <a href="#">Скачать</a>
             <a href="#">Личный кабинет</a>
         </div>
-        <!-- <embed src="audio/Nightcore_-_Oh_No.mp3" width="300" height="45" align="left" hidden="false" autostart="False" loop="True"> -->
+        <!-- <embed src="audio/1.mp3" width="300" height="450" align="left" hidden="false" autostart="False" loop="True"> -->
         
     </div>
     <hr>
@@ -46,12 +46,9 @@
                 <div>
                     <strong> E-Mail:</strong>
                     <input class="input_box" type=text name=email>
-        	</div>
- 		
+            </div>
             <input class="input_submit" type=submit name=submit value="Регистрация">
 
-         
-	    
         </form>
         </div>
     </div>
@@ -62,7 +59,7 @@
                 (
 		            'host'	=>	'localhost',				// Хост
 		            'user'	=>	'root',						// Имя пользователя
-		            'pass'	=>	'1234',			// Пароль от БД
+		            'pass'	=>	'1234',			            // Пароль от БД
 		            'name'	=>	'pw',						// Название БД
 		            'gold'	=>	'1000000000',				// Количество голда
                 );
